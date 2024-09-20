@@ -1,0 +1,30 @@
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 5px;
+    text-align: start;
+    background-color: white !important;
+    color: black;
+    width: max-content;
+
+}
+
+.input-container:focus-within {
+    outline: 1px solid black;
+}
+
+.input-container.reverse span {
+    order: -1
+}
+
+.input-container input,
+span {
+    border: unset;
+    text-align: end;
+}
+
+input:focus-visible {
+    outline: initial;
+}
